@@ -1,0 +1,96 @@
+/* kleurenpalet 
+background #f5e8c7
+headers/footers #d9af62
+special1 #a66e4e
+special2 #214011
+forms #aabf0b */
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* bovenzijde website*/
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #d9af62;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    height: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #a66e4e;
+    font-size: 10px;
+}
+li:hover, ul a:hover{
+    background-color: #214011;
+    color: white;
+}
+
+/*body website*/
+
+body{
+    background-color: #f5e8c7;
+    color: black;
+}
+.text{
+    width: 90%;
+    border-style: dotted;
+    border-color: #214011;
+}
+img.lennard{
+    border-radius: 50px;
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+/*Onderzijde website*/
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: #d9af62;
+    color: black;
+    text-align: right;
+}
+
+/* Formulieren */
+input{
+    display: block;
+    background-color: #214011;
+    color: white;
+    margin-left: 5px;
+    
+}
+textarea{
+    margin-top: 5px; margin-left: 5px;
+    width: 30%;
+    height: auto;
+    background-color: #214011;
+    color: white;
+    padding: 5px;
+}
+input[type="radio"]{
+    display: inline-block;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    opacity: 1;
+}
